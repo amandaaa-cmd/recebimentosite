@@ -1,0 +1,7 @@
+{
+  "rules": {
+    // Permite que qualquer pessoa leia os dados, mas apenas usuários autenticados possam escrever
+    ".read": true,
+    ".write": "auth != null"
+  }
+}
